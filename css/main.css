@@ -915,4 +915,25 @@ textarea {
 	color: coral;
 }
 
-/*END CONTACT STYLES
+/*END CONTACT STYLES*/
+
+
+/* MQ */
+
+@media only screen and (max-width: 768px) {
+
+	.header_wrap {
+		width: 96vw;
+	}
+
+	.nav_menu {
+		margin: 5px;
+	}
+
+	.nav_links {
+		margin: 10px;
+		font-size: 0.75em;
+	}
+}
+
+/* END MQ */
