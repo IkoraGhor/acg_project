@@ -213,9 +213,65 @@ h1, h2, h3, h4, h5, h6 {
 
 /*HOME STYLES*/
 
-.home_bg {
-	background-image: url('../img/home_bg.png');
+.home_content {
+	height: 90vh;
+	width: 100%;
+	background-color: #ececec; 
+}
+
+.home_wrapper {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section  {
+	height: 100%;
+	width: 100%;
+}
+
+.slide {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.slide1 {
+	
+	background-image: url('../img/home/home_1.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
+
+}	
+
+.slide2 {
+	background-image: url('../img/home/home_2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slide3 {
+	background-image: url('../img/home/home_3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slide_header {
+	padding: 20px 10px 20px 10px;
+	width: 60vw;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom: 35%;
+	right: 5vw;
+
+}
+
+.slide_header h1 {
+	color: #ececec;
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-size: 2em;
+	text-align: justify;
 }
 
 /*END HOME STYLES*/
@@ -716,7 +772,8 @@ h1, h2, h3, h4, h5, h6 {
 	width: 360px;
 }
 
-.row1_img, 
+.row1_img,
+.row2_img, 
 .row2_img_fur,
 .row2_img_jack,
 .row2_img_scar,
