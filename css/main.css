@@ -903,5 +903,16 @@ textarea {
 	border: 1px solid #fff;
 }
 
+.query {
+	padding: 10px;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	font-size: 0.6em;
+}
+
+.query h3 a {
+	text-decoration: none;
+	color: coral;
+}
 
 /*END CONTACT STYLES
