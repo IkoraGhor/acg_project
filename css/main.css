@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 60vw;
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
-	bottom: 35%;
+	bottom: 14vh;
 	right: 5vw;
 
 }
@@ -270,8 +270,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ececec;
 	font-family: 'Lora', serif;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 1.8em;
 	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 1;
+
 }
 
 /*END HOME STYLES*/
